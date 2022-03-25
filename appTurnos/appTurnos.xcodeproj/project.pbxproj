@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61FEDB827CE6F6B002F5D36 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FEDB727CE6F6B002F5D36 /* Webservice.swift */; };
+		E61FEDBC27CE908E002F5D36 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FEDBB27CE908E002F5D36 /* LoginViewModel.swift */; };
+		E62D4C7327B4077200C0EC20 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D4C7227B4077100C0EC20 /* SummaryView.swift */; };
+		E630BA1127D296F100643FC1 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630BA1027D296F100643FC1 /* RegisterViewModel.swift */; };
+		E652F6C627EBAED600AF0751 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652F6C527EBAED600AF0751 /* AuthenticationView.swift */; };
+		E6E2033827B14466006B1330 /* appTurnosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2033727B14466006B1330 /* appTurnosApp.swift */; };
+		E6E2033A27B14466006B1330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2033927B14466006B1330 /* ContentView.swift */; };
+		E6E2033C27B14467006B1330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2033B27B14467006B1330 /* Assets.xcassets */; };
+		E6E2033F27B14467006B1330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2033E27B14467006B1330 /* Preview Assets.xcassets */; };
+		E6E2034927B14467006B1330 /* appTurnosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2034827B14467006B1330 /* appTurnosTests.swift */; };
+		E6E2035327B14467006B1330 /* appTurnosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2035227B14467006B1330 /* appTurnosUITests.swift */; };
+		E6E2035527B14467006B1330 /* appTurnosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2035427B14467006B1330 /* appTurnosUITestsLaunchTests.swift */; };
+		E6E2035927B14467006B1330 /* appTurnos WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E6E2035827B14467006B1330 /* appTurnos WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E6E2035E27B14468006B1330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2035D27B14468006B1330 /* Assets.xcassets */; };
+		E6E2036427B14468006B1330 /* appTurnos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E6E2036327B14468006B1330 /* appTurnos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E6E2036927B14468006B1330 /* appTurnosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2036827B14468006B1330 /* appTurnosApp.swift */; };
+		E6E2036B27B14468006B1330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2036A27B14468006B1330 /* ContentView.swift */; };
+		E6E2036D27B14468006B1330 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2036C27B14468006B1330 /* NotificationController.swift */; };
+		E6E2036F27B14468006B1330 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2036E27B14468006B1330 /* NotificationView.swift */; };
+		E6E2037127B14468006B1330 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2037027B14468006B1330 /* ComplicationController.swift */; };
+		E6E2037327B14468006B1330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2037227B14468006B1330 /* Assets.xcassets */; };
+		E6E2037627B14468006B1330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2037527B14468006B1330 /* Preview Assets.xcassets */; };
+		E6E2038227B14468006B1330 /* appTurnos_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2038127B14468006B1330 /* appTurnos_WatchKit_AppTests.swift */; };
+		E6E2038C27B14468006B1330 /* appTurnos_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2038B27B14468006B1330 /* appTurnos_WatchKit_AppUITests.swift */; };
+		E6E2038E27B14468006B1330 /* appTurnos_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2038D27B14468006B1330 /* appTurnos_WatchKit_AppUITestsLaunchTests.swift */; };
+		E6E203AB27B16CA7006B1330 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E203AA27B16CA7006B1330 /* Login.swift */; };
+		E6E203AD27B1A070006B1330 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E203AC27B1A070006B1330 /* Register.swift */; };
+		E6E203AF27B1A22D006B1330 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E203AE27B1A22D006B1330 /* HomeView.swift */; };
+		E6FB202D27D6878D009D0EA3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FB202C27D6878D009D0EA3 /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6E2034527B14467006B1330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2032C27B14466006B1330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2033327B14466006B1330;
+			remoteInfo = appTurnos;
+		};
+		E6E2034F27B14467006B1330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2032C27B14466006B1330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2033327B14466006B1330;
+			remoteInfo = appTurnos;
+		};
+		E6E2035A27B14467006B1330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2032C27B14466006B1330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2035727B14467006B1330;
+			remoteInfo = "appTurnos WatchKit App";
+		};
+		E6E2036527B14468006B1330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2032C27B14466006B1330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2036227B14468006B1330;
+			remoteInfo = "appTurnos WatchKit Extension";
+		};
+		E6E2037E27B14468006B1330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2032C27B14466006B1330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2036227B14468006B1330;
+			remoteInfo = "appTurnos WatchKit Extension";
+		};
+		E6E2038827B14468006B1330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2032C27B14466006B1330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2035727B14467006B1330;
+			remoteInfo = "appTurnos WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6E2039427B14468006B1330 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E6E2036427B14468006B1330 /* appTurnos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2039827B14468006B1330 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E6E2035927B14467006B1330 /* appTurnos WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E61FEDB727CE6F6B002F5D36 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		E61FEDBB27CE908E002F5D36 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E62D4C7227B4077100C0EC20 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		E630BA1027D296F100643FC1 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		E652F6C527EBAED600AF0751 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		E6E2033427B14466006B1330 /* appTurnos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTurnos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2033727B14466006B1330 /* appTurnosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnosApp.swift; sourceTree = "<group>"; };
+		E6E2033927B14466006B1330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6E2033B27B14467006B1330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E2033E27B14467006B1330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6E2034427B14467006B1330 /* appTurnosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTurnosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2034827B14467006B1330 /* appTurnosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnosTests.swift; sourceTree = "<group>"; };
+		E6E2034E27B14467006B1330 /* appTurnosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTurnosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2035227B14467006B1330 /* appTurnosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnosUITests.swift; sourceTree = "<group>"; };
+		E6E2035427B14467006B1330 /* appTurnosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6E2035827B14467006B1330 /* appTurnos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appTurnos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2035D27B14468006B1330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E2036327B14468006B1330 /* appTurnos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "appTurnos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2036827B14468006B1330 /* appTurnosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnosApp.swift; sourceTree = "<group>"; };
+		E6E2036A27B14468006B1330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6E2036C27B14468006B1330 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E6E2036E27B14468006B1330 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		E6E2037027B14468006B1330 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E6E2037227B14468006B1330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E2037527B14468006B1330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6E2037727B14468006B1330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E2037827B14468006B1330 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E6E2037D27B14468006B1330 /* appTurnos WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appTurnos WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2038127B14468006B1330 /* appTurnos_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnos_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		E6E2038727B14468006B1330 /* appTurnos WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appTurnos WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2038B27B14468006B1330 /* appTurnos_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnos_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		E6E2038D27B14468006B1330 /* appTurnos_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTurnos_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6E203AA27B16CA7006B1330 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E6E203AC27B1A070006B1330 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		E6E203AE27B1A22D006B1330 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E6FB202C27D6878D009D0EA3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E2033127B14466006B1330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2034127B14467006B1330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2034B27B14467006B1330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2036027B14468006B1330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2037A27B14468006B1330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2038427B14468006B1330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E2032B27B14466006B1330 = {
+			isa = PBXGroup;
+			children = (
+				E6E2033627B14466006B1330 /* appTurnos */,
+				E6E2034727B14467006B1330 /* appTurnosTests */,
+				E6E2035127B14467006B1330 /* appTurnosUITests */,
+				E6E2035C27B14467006B1330 /* appTurnos WatchKit App */,
+				E6E2036727B14468006B1330 /* appTurnos WatchKit Extension */,
+				E6E2038027B14468006B1330 /* appTurnos WatchKit AppTests */,
+				E6E2038A27B14468006B1330 /* appTurnos WatchKit AppUITests */,
+				E6E2033527B14466006B1330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E2033527B14466006B1330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2033427B14466006B1330 /* appTurnos.app */,
+				E6E2034427B14467006B1330 /* appTurnosTests.xctest */,
+				E6E2034E27B14467006B1330 /* appTurnosUITests.xctest */,
+				E6E2035827B14467006B1330 /* appTurnos WatchKit App.app */,
+				E6E2036327B14468006B1330 /* appTurnos WatchKit Extension.appex */,
+				E6E2037D27B14468006B1330 /* appTurnos WatchKit AppTests.xctest */,
+				E6E2038727B14468006B1330 /* appTurnos WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E2033627B14466006B1330 /* appTurnos */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2033727B14466006B1330 /* appTurnosApp.swift */,
+				E6E2033927B14466006B1330 /* ContentView.swift */,
+				E652F6C527EBAED600AF0751 /* AuthenticationView.swift */,
+				E6E203AA27B16CA7006B1330 /* Login.swift */,
+				E61FEDBB27CE908E002F5D36 /* LoginViewModel.swift */,
+				E6FB202C27D6878D009D0EA3 /* HomeViewModel.swift */,
+				E630BA1027D296F100643FC1 /* RegisterViewModel.swift */,
+				E61FEDB727CE6F6B002F5D36 /* Webservice.swift */,
+				E6E203AC27B1A070006B1330 /* Register.swift */,
+				E6E203AE27B1A22D006B1330 /* HomeView.swift */,
+				E62D4C7227B4077100C0EC20 /* SummaryView.swift */,
+				E6E2033B27B14467006B1330 /* Assets.xcassets */,
+				E6E2033D27B14467006B1330 /* Preview Content */,
+			);
+			path = appTurnos;
+			sourceTree = "<group>";
+		};
+		E6E2033D27B14467006B1330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2033E27B14467006B1330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6E2034727B14467006B1330 /* appTurnosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2034827B14467006B1330 /* appTurnosTests.swift */,
+			);
+			path = appTurnosTests;
+			sourceTree = "<group>";
+		};
+		E6E2035127B14467006B1330 /* appTurnosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2035227B14467006B1330 /* appTurnosUITests.swift */,
+				E6E2035427B14467006B1330 /* appTurnosUITestsLaunchTests.swift */,
+			);
+			path = appTurnosUITests;
+			sourceTree = "<group>";
+		};
+		E6E2035C27B14467006B1330 /* appTurnos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2035D27B14468006B1330 /* Assets.xcassets */,
+			);
+			path = "appTurnos WatchKit App";
+			sourceTree = "<group>";
+		};
+		E6E2036727B14468006B1330 /* appTurnos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2036827B14468006B1330 /* appTurnosApp.swift */,
+				E6E2036A27B14468006B1330 /* ContentView.swift */,
+				E6E2036C27B14468006B1330 /* NotificationController.swift */,
+				E6E2036E27B14468006B1330 /* NotificationView.swift */,
+				E6E2037027B14468006B1330 /* ComplicationController.swift */,
+				E6E2037227B14468006B1330 /* Assets.xcassets */,
+				E6E2037727B14468006B1330 /* Info.plist */,
+				E6E2037827B14468006B1330 /* PushNotificationPayload.apns */,
+				E6E2037427B14468006B1330 /* Preview Content */,
+			);
+			path = "appTurnos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E6E2037427B14468006B1330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2037527B14468006B1330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6E2038027B14468006B1330 /* appTurnos WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2038127B14468006B1330 /* appTurnos_WatchKit_AppTests.swift */,
+			);
+			path = "appTurnos WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		E6E2038A27B14468006B1330 /* appTurnos WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2038B27B14468006B1330 /* appTurnos_WatchKit_AppUITests.swift */,
+				E6E2038D27B14468006B1330 /* appTurnos_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "appTurnos WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E2033327B14466006B1330 /* appTurnos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2039927B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos" */;
+			buildPhases = (
+				E6E2033027B14466006B1330 /* Sources */,
+				E6E2033127B14466006B1330 /* Frameworks */,
+				E6E2033227B14466006B1330 /* Resources */,
+				E6E2039827B14468006B1330 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2035B27B14467006B1330 /* PBXTargetDependency */,
+			);
+			name = appTurnos;
+			productName = appTurnos;
+			productReference = E6E2033427B14466006B1330 /* appTurnos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6E2034327B14467006B1330 /* appTurnosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2039C27B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnosTests" */;
+			buildPhases = (
+				E6E2034027B14467006B1330 /* Sources */,
+				E6E2034127B14467006B1330 /* Frameworks */,
+				E6E2034227B14467006B1330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2034627B14467006B1330 /* PBXTargetDependency */,
+			);
+			name = appTurnosTests;
+			productName = appTurnosTests;
+			productReference = E6E2034427B14467006B1330 /* appTurnosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6E2034D27B14467006B1330 /* appTurnosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2039F27B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnosUITests" */;
+			buildPhases = (
+				E6E2034A27B14467006B1330 /* Sources */,
+				E6E2034B27B14467006B1330 /* Frameworks */,
+				E6E2034C27B14467006B1330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2035027B14467006B1330 /* PBXTargetDependency */,
+			);
+			name = appTurnosUITests;
+			productName = appTurnosUITests;
+			productReference = E6E2034E27B14467006B1330 /* appTurnosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E6E2035727B14467006B1330 /* appTurnos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2039527B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit App" */;
+			buildPhases = (
+				E6E2035627B14467006B1330 /* Resources */,
+				E6E2039427B14468006B1330 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2036627B14468006B1330 /* PBXTargetDependency */,
+			);
+			name = "appTurnos WatchKit App";
+			productName = "appTurnos WatchKit App";
+			productReference = E6E2035827B14467006B1330 /* appTurnos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E6E2036227B14468006B1330 /* appTurnos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2039127B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit Extension" */;
+			buildPhases = (
+				E6E2035F27B14468006B1330 /* Sources */,
+				E6E2036027B14468006B1330 /* Frameworks */,
+				E6E2036127B14468006B1330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appTurnos WatchKit Extension";
+			productName = "appTurnos WatchKit Extension";
+			productReference = E6E2036327B14468006B1330 /* appTurnos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		E6E2037C27B14468006B1330 /* appTurnos WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E203A227B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit AppTests" */;
+			buildPhases = (
+				E6E2037927B14468006B1330 /* Sources */,
+				E6E2037A27B14468006B1330 /* Frameworks */,
+				E6E2037B27B14468006B1330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2037F27B14468006B1330 /* PBXTargetDependency */,
+			);
+			name = "appTurnos WatchKit AppTests";
+			productName = "appTurnos WatchKit AppTests";
+			productReference = E6E2037D27B14468006B1330 /* appTurnos WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6E2038627B14468006B1330 /* appTurnos WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E203A527B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit AppUITests" */;
+			buildPhases = (
+				E6E2038327B14468006B1330 /* Sources */,
+				E6E2038427B14468006B1330 /* Frameworks */,
+				E6E2038527B14468006B1330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2038927B14468006B1330 /* PBXTargetDependency */,
+			);
+			name = "appTurnos WatchKit AppUITests";
+			productName = "appTurnos WatchKit AppUITests";
+			productReference = E6E2038727B14468006B1330 /* appTurnos WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E2032C27B14466006B1330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E6E2033327B14466006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E6E2034327B14467006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E6E2033327B14466006B1330;
+					};
+					E6E2034D27B14467006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E6E2033327B14466006B1330;
+					};
+					E6E2035727B14467006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E6E2036227B14468006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E6E2037C27B14468006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E6E2036227B14468006B1330;
+					};
+					E6E2038627B14468006B1330 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E6E2035727B14467006B1330;
+					};
+				};
+			};
+			buildConfigurationList = E6E2032F27B14466006B1330 /* Build configuration list for PBXProject "appTurnos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E2032B27B14466006B1330;
+			productRefGroup = E6E2033527B14466006B1330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E2033327B14466006B1330 /* appTurnos */,
+				E6E2034327B14467006B1330 /* appTurnosTests */,
+				E6E2034D27B14467006B1330 /* appTurnosUITests */,
+				E6E2035727B14467006B1330 /* appTurnos WatchKit App */,
+				E6E2036227B14468006B1330 /* appTurnos WatchKit Extension */,
+				E6E2037C27B14468006B1330 /* appTurnos WatchKit AppTests */,
+				E6E2038627B14468006B1330 /* appTurnos WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E2033227B14466006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2033F27B14467006B1330 /* Preview Assets.xcassets in Resources */,
+				E6E2033C27B14467006B1330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2034227B14467006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2034C27B14467006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2035627B14467006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2035E27B14468006B1330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2036127B14468006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2037627B14468006B1330 /* Preview Assets.xcassets in Resources */,
+				E6E2037327B14468006B1330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2037B27B14468006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2038527B14468006B1330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E2033027B14466006B1330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E203AB27B16CA7006B1330 /* Login.swift in Sources */,
+				E61FEDB827CE6F6B002F5D36 /* Webservice.swift in Sources */,
+				E6E2033A27B14466006B1330 /* ContentView.swift in Sources */,
+				E6FB202D27D6878D009D0EA3 /* HomeViewModel.swift in Sources */,
+				E6E203AD27B1A070006B1330 /* Register.swift in Sources */,
+				E61FEDBC27CE908E002F5D36 /* LoginViewModel.swift in Sources */,
+				E6E203AF27B1A22D006B1330 /* HomeView.swift in Sources */,
+				E652F6C627EBAED600AF0751 /* AuthenticationView.swift in Sources */,
+				E62D4C7327B4077200C0EC20 /* SummaryView.swift in Sources */,
+				E630BA1127D296F100643FC1 /* RegisterViewModel.swift in Sources */,
+				E6E2033827B14466006B1330 /* appTurnosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2034027B14467006B1330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2034927B14467006B1330 /* appTurnosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2034A27B14467006B1330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2035327B14467006B1330 /* appTurnosUITests.swift in Sources */,
+				E6E2035527B14467006B1330 /* appTurnosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2035F27B14468006B1330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2036D27B14468006B1330 /* NotificationController.swift in Sources */,
+				E6E2036B27B14468006B1330 /* ContentView.swift in Sources */,
+				E6E2037127B14468006B1330 /* ComplicationController.swift in Sources */,
+				E6E2036927B14468006B1330 /* appTurnosApp.swift in Sources */,
+				E6E2036F27B14468006B1330 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2037927B14468006B1330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2038227B14468006B1330 /* appTurnos_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2038327B14468006B1330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2038E27B14468006B1330 /* appTurnos_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				E6E2038C27B14468006B1330 /* appTurnos_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E2034627B14467006B1330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2033327B14466006B1330 /* appTurnos */;
+			targetProxy = E6E2034527B14467006B1330 /* PBXContainerItemProxy */;
+		};
+		E6E2035027B14467006B1330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2033327B14466006B1330 /* appTurnos */;
+			targetProxy = E6E2034F27B14467006B1330 /* PBXContainerItemProxy */;
+		};
+		E6E2035B27B14467006B1330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2035727B14467006B1330 /* appTurnos WatchKit App */;
+			targetProxy = E6E2035A27B14467006B1330 /* PBXContainerItemProxy */;
+		};
+		E6E2036627B14468006B1330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2036227B14468006B1330 /* appTurnos WatchKit Extension */;
+			targetProxy = E6E2036527B14468006B1330 /* PBXContainerItemProxy */;
+		};
+		E6E2037F27B14468006B1330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2036227B14468006B1330 /* appTurnos WatchKit Extension */;
+			targetProxy = E6E2037E27B14468006B1330 /* PBXContainerItemProxy */;
+		};
+		E6E2038927B14468006B1330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2035727B14467006B1330 /* appTurnos WatchKit App */;
+			targetProxy = E6E2038827B14468006B1330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6E2038F27B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6E2039027B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E6E2039227B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appTurnos WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "appTurnos WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "appTurnos WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		E6E2039327B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appTurnos WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "appTurnos WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "appTurnos WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		E6E2039627B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = appTurnos_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "appTurnos WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = alejandro.appTurnos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		E6E2039727B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = appTurnos_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "appTurnos WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = alejandro.appTurnos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		E6E2039A27B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appTurnos/Preview Content\"";
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E2039B27B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appTurnos/Preview Content\"";
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E2039D27B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appTurnos.app/appTurnos";
+			};
+			name = Debug;
+		};
+		E6E2039E27B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appTurnos.app/appTurnos";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E203A027B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appTurnos;
+			};
+			name = Debug;
+		};
+		E6E203A127B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alejandro.appTurnosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appTurnos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E203A327B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandro.appTurnos-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appTurnos WatchKit Extension.appex/appTurnos WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		E6E203A427B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandro.appTurnos-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appTurnos WatchKit Extension.appex/appTurnos WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		E6E203A627B14468006B1330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandro.appTurnos-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "appTurnos WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		E6E203A727B14468006B1330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M59T6ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandro.appTurnos-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "appTurnos WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E2032F27B14466006B1330 /* Build configuration list for PBXProject "appTurnos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2038F27B14468006B1330 /* Debug */,
+				E6E2039027B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2039127B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2039227B14468006B1330 /* Debug */,
+				E6E2039327B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2039527B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2039627B14468006B1330 /* Debug */,
+				E6E2039727B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2039927B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2039A27B14468006B1330 /* Debug */,
+				E6E2039B27B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2039C27B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2039D27B14468006B1330 /* Debug */,
+				E6E2039E27B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2039F27B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E203A027B14468006B1330 /* Debug */,
+				E6E203A127B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E203A227B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E203A327B14468006B1330 /* Debug */,
+				E6E203A427B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E203A527B14468006B1330 /* Build configuration list for PBXNativeTarget "appTurnos WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E203A627B14468006B1330 /* Debug */,
+				E6E203A727B14468006B1330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E2032C27B14466006B1330 /* Project object */;
+}
